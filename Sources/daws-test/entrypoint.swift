@@ -7,7 +7,6 @@ struct DAWS: AsyncParsableCommand {
     @Argument
     var mode: Mode
 
-
     mutating func run() async throws {
         switch mode {
             case .server:
